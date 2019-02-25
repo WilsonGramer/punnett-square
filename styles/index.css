@@ -1,0 +1,61 @@
+body {
+    font-family: system-ui, Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    background-color: #f9f9f9;
+    padding: 12px;
+    margin: 0 auto;
+    display: table-cell;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+td {
+    padding: 4px;
+}
+
+td,
+input,
+.genotype-label,
+.phenotype-label,
+.alleles-label,
+.ratios-label {
+    font-family: SFMono, monospace;
+}
+
+.name-label,
+.ratios-label {
+    font-weight: 500;
+}
+
+.alleles-label {
+    margin-left: 4px;
+}
+
+input {
+    margin-left: 8px;
+    margin-bottom: 8px;
+    font-size: 12pt;
+}
+
+small {
+    display: block;
+    color: #555;
+    margin-bottom: 16px;
+}
+
+.ratio-details-container {
+    margin-bottom: 1em;
+}
+
+.error-label {
+    color: red;
+    margin-top: 8px;
+}
